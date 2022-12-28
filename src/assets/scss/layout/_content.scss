@@ -1,0 +1,46 @@
+// projects container
+.project-card {
+    .project-actions {
+        display: none;
+        top: 10%;
+        right: 10%
+    }
+
+    &:hover {
+        .project-actions {
+            display: block;
+        }
+    }
+}
+
+// model
+.backdrop {
+    z-index: 20;
+}
+
+.model {
+    z-index: 30;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 35%;
+}
+
+// Dashboard
+.icon-completed,
+.icon-waiting {
+    font-size: 9.5rem;
+}
+
+.default-avatar {
+    height: 40px;
+    width: 40px;
+}
+
+.member-overlap-item {
+    margin-right: -20px;
+}
+
+.dashboard-icon {
+    font-size: 5rem;
+}
